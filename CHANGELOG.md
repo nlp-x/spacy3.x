@@ -1,5 +1,11 @@
 # @nlp-x/spacy3.x
 
+## 0.0.7
+
+### Patch Changes
+
+- 8c92014: Update License
+
 ## 0.0.6
 
 ### Patch Changes
