@@ -1,5 +1,11 @@
 # @nlp-x/spacy3.x
 
+## 0.0.6
+
+### Patch Changes
+
+- 553ee27: Update publish workflow
+
 ## 0.0.5
 
 ### Patch Changes
