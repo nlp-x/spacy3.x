@@ -1,5 +1,11 @@
 # @nlp-x/spacy3.x
 
+## 0.0.4
+
+### Patch Changes
+
+- 205088b: Add description
+
 ## 0.0.3
 
 ### Patch Changes
