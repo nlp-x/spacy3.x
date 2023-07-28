@@ -13,12 +13,12 @@
     "start": "node index.js",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.py dist/",
-    "build": "pnpm run clean && tsc && pnpm run copy-files",
+    "build": "pnpm run clean && tsc --declaration && pnpm run copy-files",
     "test": "vitest --run --reporter verbose --coverage --globals",
     "test:watch": "vitest --reporter verbose --coverage --globals",
     "publish": "npm publish --access public",
     "ci": "pnpm run test && pnpm run build",
-    "release": "pnpm run ci && changeset publish"
+    "release": "pnpm run ci && pnpm run publish"
   },
   "keywords": [],
   "author": {
