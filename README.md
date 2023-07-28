@@ -12,8 +12,28 @@ JavaScript library for accessing linguistic annotations provided by spaCy v.3.x.
 
 ## Prerequisites
 
+- Node.js
+- NPM
 - Python3
 - pip3
+
+## Installation
+
+NPM:
+```
+npm install @nlp-x/spacy3.x
+```
+
+Yarn:
+```
+yarn add @nlp-x/spacy3.x
+```
+
+PNPM:
+```
+pnpm install @nlp-x/spacy3.x
+```
+
 
 ## Usage
 
