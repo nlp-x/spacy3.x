@@ -29,6 +29,9 @@ jobs:
           node-version: '18.x'
           cache: "pnpm"
           registry-url: 'https://registry.npmjs.org'
+          scope: '@<scope>'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - run: pnpm install --frozen-lockfile
       - name: Create Release Pull Request or Publish
@@ -38,4 +41,3 @@ jobs:
           publish: pnpm run release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}

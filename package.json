@@ -18,7 +18,7 @@
     "test:watch": "vitest --reporter verbose --coverage --globals",
     "publish": "npm publish --access public",
     "ci": "pnpm run test && pnpm run build",
-    "release": "pnpm run ci && pnpm run publish"
+    "release": "pnpm run ci && changeset publish"
   },
   "keywords": [],
   "author": {
