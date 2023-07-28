@@ -1,0 +1,35 @@
+{
+  "name": "@nlp-x/spacy3.x",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rimraf dist/",
+    "copy-files": "copyfiles -u 1 src/**/*.py dist/",
+    "build": "pnpm run clean && tsc && pnpm run copy-files",
+    "test": "vitest --run --reporter verbose --coverage --globals",
+    "test:watch": "vitest --reporter verbose --coverage --globals",
+    "publish": "npm publish --access public",
+    "ci": "pnpm run test && pnpm run build"
+  },
+  "keywords": [],
+  "author": {
+    "email": "wedekind.kai@googlemail.com",
+    "name": "Kai Wedekind"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "@vitest/coverage-istanbul": "^0.33.0",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6",
+    "vitest": "^0.33.0"
+  }
+}

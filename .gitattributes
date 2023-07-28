@@ -1,0 +1,1 @@
+tests/en_core_web_lg-3.6.0/vocab/vectors filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,104 @@
+[
+  {
+    "model": "en_core_web_lg",
+    "text": "The Mars Orbiter Mission (MOM), informally known as Mangalyaan, was launched into Earth orbit on 5 November 2013 by the Indian Space Research Organisation (ISRO) and has entered Mars orbit on 24 September 2014. India thus became the first country to enter Mars orbit on its first attempt. It was completed at a record low cost of $74 million.",
+    "result": [
+      {
+        "text": "The Mars Orbiter Mission",
+        "label": "PRODUCT",
+        "start_char": 0,
+        "end_char": 24
+      },
+      {
+        "text": "Mangalyaan",
+        "label": "PERSON",
+        "start_char": 52,
+        "end_char": 62
+      },
+      {
+        "text": "Earth",
+        "label": "LOC",
+        "start_char": 82,
+        "end_char": 87
+      },
+      {
+        "text": "5 November 2013",
+        "label": "DATE",
+        "start_char": 97,
+        "end_char": 112
+      },
+      {
+        "text": "the Indian Space Research Organisation",
+        "label": "ORG",
+        "start_char": 116,
+        "end_char": 154
+      },
+      {
+        "text": "ISRO",
+        "label": "ORG",
+        "start_char": 156,
+        "end_char": 160
+      },
+      { 
+        "text": "Mars",
+        "label": "LOC",
+        "start_char": 178,
+        "end_char": 182
+      },
+      {
+        "text": "24 September 2014",
+        "label": "DATE",
+        "start_char": 192,
+        "end_char": 209
+      },
+      {
+        "text": "India",
+        "label": "GPE",
+        "start_char": 211,
+        "end_char": 216
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 233,
+        "end_char": 238
+      },
+      {
+        "text": "Mars",
+        "label": "LOC",
+        "start_char": 256,
+        "end_char": 260
+      },
+      {
+        "text": "first",
+        "label": "ORDINAL",
+        "start_char": 274,
+        "end_char": 279
+      },
+      {
+        "text": "$74 million",
+        "label": "MONEY",
+        "start_char": 330,
+        "end_char": 341
+      }
+    ]
+  },
+  {
+    "model": "en_core_web_lg",
+    "text": "Bob brought the pizza to Alice.",
+    "result": [
+      {
+        "text": "Bob",
+        "label": "PERSON",
+        "start_char": 0,
+        "end_char": 3 
+      },
+      {
+        "text": "Alice",
+        "label": "PERSON",
+        "start_char": 25,
+        "end_char": 30
+      }
+    ]
+  }
+]
