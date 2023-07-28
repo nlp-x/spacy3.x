@@ -19,7 +19,13 @@
     "ci": "pnpm run test && pnpm run build",
     "release": "pnpm run ci && changeset publish"
   },
-  "keywords": [],
+  "keywords": [
+    "Spacy",
+    "NLP",
+    "Linguistics",
+    "NER",
+    "Natural Language Processing"
+  ],
   "author": {
     "email": "wedekind.kai@googlemail.com",
     "name": "Kai Wedekind"
