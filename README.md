@@ -1,6 +1,14 @@
 # spacy3.x
 
+[![NPM](https://badge.fury.io/js/@nlp-x%2Fspacy3.x.svg)](https://nodei.co/npm/@nlp-x/spacy3.x/)
+[![CI](https://github.com/nlp-x/spacy3.x/actions/workflows/ci.yaml/badge.svg)](https://github.com/nlp-x/spacy3.x/actions/workflows/ci.yaml)
+[![Issues](https://img.shields.io/github/issues/nlp-x/spacy3.x.svg)](https://github.com/nlp-x/spacy3.x/issues)
+[![Forks](https://img.shields.io/github/forks/nlp-x/spacy3.x.svg)](https://github.com/nlp-x/spacy3.x/network)
+[![Stars](https://img.shields.io/github/stars/nlp-x/spacy3.x.svg)](https://github.com/nlp-x/spacy3.x/stargazers)
+[![License](https://img.shields.io/github/license/nlp-x/spacy3.x.svg)](https://raw.githubusercontent.com/nlp-x/spacy3.x/main/LICENSE)
+
 JavaScript library for accessing linguistic annotations provided by spaCy v.3.x.
+
 
 ## Prerequisites
 
@@ -31,7 +39,7 @@ yarn test
 ```
 
 
-## Local packages
+## Download models
 
 https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-3.6.0
 
