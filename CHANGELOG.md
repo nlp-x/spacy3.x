@@ -1,5 +1,12 @@
 # @nlp-x/spacy3.x
 
+## 0.0.8
+
+### Patch Changes
+
+- 7a6bad1: Cleanup
+- 0f1386f: Update scripts
+
 ## 0.0.7
 
 ### Patch Changes
