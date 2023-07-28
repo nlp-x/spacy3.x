@@ -16,7 +16,8 @@
     "test": "vitest --run --reporter verbose --coverage --globals",
     "test:watch": "vitest --reporter verbose --coverage --globals",
     "publish": "npm publish --access public",
-    "ci": "pnpm run test && pnpm run build"
+    "ci": "pnpm run test && pnpm run build",
+    "release": "pnpm run ci && changesets publish"
   },
   "keywords": [],
   "author": {
@@ -25,6 +26,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20.4.5",
     "@vitest/coverage-istanbul": "^0.33.0",
     "copyfiles": "^2.4.1",
