@@ -34,7 +34,7 @@ yarn test
 https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-3.6.0
 
 
-````
+```
 MODEL_NAME=en_core_web_sm
 MODEL_VERSION=3.6.0
 
