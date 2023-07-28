@@ -1,5 +1,11 @@
 # @nlp-x/spacy3.x
 
+## 0.0.5
+
+### Patch Changes
+
+- c562566: Update build and release script
+
 ## 0.0.4
 
 ### Patch Changes
