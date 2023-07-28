@@ -1,4 +1,4 @@
-# spaCy3.x
+# spacy3.x
 
 ## Prerequisites
 
