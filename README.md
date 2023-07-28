@@ -61,7 +61,7 @@ yarn test
 
 ## Download models
 
-https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-3.6.0
+https://github.com/explosion/spacy-models/releases/tag/en_core_web_sm-3.6.0
 
 
 ```
