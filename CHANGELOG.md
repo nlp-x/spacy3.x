@@ -1,5 +1,11 @@
 # @nlp-x/spacy3.x
 
+## 0.0.3
+
+### Patch Changes
+
+- 5a6fb85: Update README
+
 ## 0.0.2
 
 ### Patch Changes
