@@ -25,7 +25,7 @@
     "email": "wedekind.kai@googlemail.com",
     "name": "Kai Wedekind"
   },
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.4.5",
