@@ -1,5 +1,12 @@
 # @nlp-x/spacy3.x
 
+## 0.0.9
+
+### Patch Changes
+
+- f154b1f: Add keywords
+- 677f0c8: Add badges to README
+
 ## 0.0.8
 
 ### Patch Changes
