@@ -1,5 +1,7 @@
 # spacy3.x
 
+JavaScript library for accessing linguistic annotations provided by spaCy v.3.x.
+
 ## Prerequisites
 
 - Python3

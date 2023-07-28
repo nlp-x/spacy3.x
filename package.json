@@ -2,7 +2,7 @@
   "name": "@nlp-x/spacy3.x",
   "version": "0.0.3",
   "private": false,
-  "description": "",
+  "description": "JavaScript library for accessing linguistic annotations provided by spaCy v.3.x.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
