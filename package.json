@@ -16,7 +16,6 @@
     "build": "pnpm run clean && tsc --declaration && pnpm run copy-files",
     "test": "vitest --run --reporter verbose --coverage --globals",
     "test:watch": "vitest --reporter verbose --coverage --globals",
-    "publish": "npm publish --access public",
     "ci": "pnpm run test && pnpm run build",
     "release": "pnpm run ci && changeset publish"
   },
