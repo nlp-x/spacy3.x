@@ -1,6 +1,6 @@
 {
   "name": "@nlp-x/spacy3.x",
-  "version": "0.0.11",
+  "version": "1.0.0",
   "private": false,
   "description": "JavaScript library for accessing linguistic annotations provided by spaCy v.3.x.",
   "type": "module",
@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "start": "node index.js",
+    "start-ts": "bun run ./index.ts",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.py dist/",
     "build": "pnpm run clean && tsc --declaration && pnpm run copy-files",
@@ -30,7 +31,7 @@
     "email": "wedekind.kai@googlemail.com",
     "name": "Kai Wedekind"
   },
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.4.5",
