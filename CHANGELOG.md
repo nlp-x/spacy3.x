@@ -1,5 +1,16 @@
 # @nlp-x/spacy3.x
 
+## 1.0.0
+
+### Major Changes
+
+- 9e18bcf: First release
+- 9e18bcf: First release
+
+### Patch Changes
+
+- 931b02d: First release
+
 ## 0.0.11
 
 ### Patch Changes
